@@ -13,6 +13,8 @@
 
 A quiz application deployment to demonstrate CICD concepts.
 
+![](screenshot.png)
+
 ## Installation
 
 Run the following to install and build:
