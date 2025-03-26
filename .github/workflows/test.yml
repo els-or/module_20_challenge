@@ -1,0 +1,12 @@
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Run Tests"
+        run: |
+          npm run test-component
